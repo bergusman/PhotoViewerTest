@@ -18,6 +18,10 @@
 		AD7DDF0417A6D715004723BF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD7DDF0317A6D715004723BF /* Default-568h@2x.png */; };
 		AD7DDF0717A6D715004723BF /* VBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7DDF0617A6D715004723BF /* VBViewController.m */; };
 		AD7DDF0A17A6D715004723BF /* VBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD7DDF0817A6D715004723BF /* VBViewController.xib */; };
+		AD7DDF1317A6D777004723BF /* up1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD7DDF1017A6D777004723BF /* up1.jpg */; };
+		AD7DDF1417A6D777004723BF /* up2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD7DDF1117A6D777004723BF /* up2.jpg */; };
+		AD7DDF1517A6D777004723BF /* up3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD7DDF1217A6D777004723BF /* up3.jpg */; };
+		AD7DDF1817A6D88D004723BF /* VBPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7DDF1717A6D88D004723BF /* VBPhotoView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,11 @@
 		AD7DDF0517A6D715004723BF /* VBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBViewController.h; sourceTree = "<group>"; };
 		AD7DDF0617A6D715004723BF /* VBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBViewController.m; sourceTree = "<group>"; };
 		AD7DDF0917A6D715004723BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VBViewController.xib; sourceTree = "<group>"; };
+		AD7DDF1017A6D777004723BF /* up1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = up1.jpg; sourceTree = "<group>"; };
+		AD7DDF1117A6D777004723BF /* up2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = up2.jpg; sourceTree = "<group>"; };
+		AD7DDF1217A6D777004723BF /* up3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = up3.jpg; sourceTree = "<group>"; };
+		AD7DDF1617A6D88D004723BF /* VBPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBPhotoView.h; sourceTree = "<group>"; };
+		AD7DDF1717A6D88D004723BF /* VBPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBPhotoView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +92,17 @@
 		AD7DDEF317A6D715004723BF /* PhotoViewerTest */ = {
 			isa = PBXGroup;
 			children = (
+				AD7DDF1017A6D777004723BF /* up1.jpg */,
+				AD7DDF1117A6D777004723BF /* up2.jpg */,
+				AD7DDF1217A6D777004723BF /* up3.jpg */,
 				AD7DDEFC17A6D715004723BF /* VBAppDelegate.h */,
 				AD7DDEFD17A6D715004723BF /* VBAppDelegate.m */,
 				AD7DDF0517A6D715004723BF /* VBViewController.h */,
 				AD7DDF0617A6D715004723BF /* VBViewController.m */,
 				AD7DDF0817A6D715004723BF /* VBViewController.xib */,
 				AD7DDEF417A6D715004723BF /* Supporting Files */,
+				AD7DDF1617A6D88D004723BF /* VBPhotoView.h */,
+				AD7DDF1717A6D88D004723BF /* VBPhotoView.m */,
 			);
 			path = PhotoViewerTest;
 			sourceTree = "<group>";
@@ -164,6 +178,9 @@
 				AD7DDF0217A6D715004723BF /* Default@2x.png in Resources */,
 				AD7DDF0417A6D715004723BF /* Default-568h@2x.png in Resources */,
 				AD7DDF0A17A6D715004723BF /* VBViewController.xib in Resources */,
+				AD7DDF1317A6D777004723BF /* up1.jpg in Resources */,
+				AD7DDF1417A6D777004723BF /* up2.jpg in Resources */,
+				AD7DDF1517A6D777004723BF /* up3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +194,7 @@
 				AD7DDEFA17A6D715004723BF /* main.m in Sources */,
 				AD7DDEFE17A6D715004723BF /* VBAppDelegate.m in Sources */,
 				AD7DDF0717A6D715004723BF /* VBViewController.m in Sources */,
+				AD7DDF1817A6D88D004723BF /* VBPhotoView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
